@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-407-01</title>
+    <script defer src="data.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Emojee - Emoji 🔍 Application</h1>  
+    <input onkeyup="searchEmojiKeyup()" type="text" name="searchbar" id="input" placeholder="search for emoji....">
+    <button type="button" onclick="searchEmoji()">Search</button>
+   <div class="container">
+     <table id="tableData"></table>
+   </div>
+</body>
+</html>
